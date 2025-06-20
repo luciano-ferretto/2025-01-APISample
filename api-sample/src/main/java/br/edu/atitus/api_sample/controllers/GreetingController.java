@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/greeting")
+@RequestMapping("/ws/greeting")
 public class GreetingController {
 
 	@GetMapping({"", "/", "/{namePath}"})
